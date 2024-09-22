@@ -1,0 +1,118 @@
+﻿body {
+    background-image: url('MiamiBackground.jpg');
+    background-size: 100% 100%; 
+    background-position: center; 
+    background-repeat:no-repeat;
+    background-color: #18776f;
+    color: #c175b6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    text-align: center;
+}
+
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 600px;
+    max-height: 100vh;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+#Title {
+    font-size: 4.5em;
+    font-family: 'Rage';
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    width: 80%;
+    max-width: 600px;
+    box-sizing: border-box;
+    border: 3px solid #1cb2c7;
+}
+
+#CoverArt {
+    width: 350px;
+    height: 350px;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 20px 0;
+    border: 3px solid #1cb2c7;
+}
+
+
+#Rating {
+    font-size: 1.2em;
+    font-family: 'Century Gothic';
+    margin: 10px 0;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    width: 80%;
+    max-width: 600px;
+    box-sizing: border-box;
+    border: 3px solid #1cb2c7;
+}
+
+#Trailer {
+    margin: 20px 0;
+    margin-top: 20px;
+    background-color: white;
+    padding: 10px;
+    border: 3px solid #1cb2c7;
+}
+
+a {
+    color: #c175b6;
+    text-decoration: none;
+    font-family: 'Century Gothic';
+    font-weight: bold;
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    width: 80%;
+    max-width: 600px;
+    box-sizing: border-box;
+    border: 3px solid #1cb2c7;
+}
+
+    a:hover {
+        text-decoration: underline;
+        color: #1cb2c7;
+    }
+
+#Summary {
+    font-size: 1em;
+    margin: 20px 0;
+    font-family: 'Century Gothic';
+    background-color: white;
+    padding: 10px;
+    display: inline-block;
+    width: 80%;
+    max-width: 600px;
+    box-sizing: border-box;
+    border: 3px solid #1cb2c7;
+}
+
+#Actors {
+    list-style-type: none;
+    background-color: white;
+    font-family: 'Century Gothic';
+    padding: 10px;
+    display: inline-block;
+    width: 80%;
+    max-width: 600px;
+    box-sizing: border-box;
+    border: 3px solid #1cb2c7;
+}
+
+    #Actors li {
+        font-size: 1em;
+        margin: 5px 0;
+    }
